@@ -1,0 +1,10 @@
+.footer__nav {
+  position: sticky;
+  bottom: 0;
+  background-color: var(--background-color);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 5px;
+  border: var(--border);
+}

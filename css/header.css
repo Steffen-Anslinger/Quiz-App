@@ -1,0 +1,15 @@
+.header {
+  background: var(--background-color);
+  color: black;
+  height: 80px;
+  padding: 10px;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.header__title {
+  margin: 0;
+}

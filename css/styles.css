@@ -1,32 +1,10 @@
-* {
-  box-sizing: border-box;
-}
-
-main {
-  display: flex;
-  flex-direction: column;
-  gap: 30px;
-  margin: 0 auto;
-}
-
-.header {
-  background: rgb(225, 172, 172);
-  color: black;
-  height: 80px;
-  padding: 10px;
-  top: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-
-.header__title {
-  margin: 0;
-}
+@import "/css/global.css";
+@import "/css/button.css";
+@import "/css/header.css";
+@import "/css/navigation.css";
 
 .question {
-  border: 2px solid black;
+  border: var(--border);
   border-radius: 10px;
   gap: 30px;
   margin: 10px 5%;
@@ -34,6 +12,7 @@ main {
   padding: 5px;
   justify-content: center;
   align-items: center;
+  background-color: rgb(172, 225, 225);
 }
 
 .question__text {
@@ -43,6 +22,7 @@ main {
 }
 
 .question__bookmark {
+  border: none;
   font-size: larger;
   position: absolute;
   top: -5px;
@@ -59,16 +39,5 @@ ul {
 .tag li {
   padding: 5px;
   border-radius: 5px;
-  background-color: rgb(225, 172, 172);
-}
-
-.footer__nav {
-  position: sticky;
-  bottom: 0;
-  background-color: rgb(225, 172, 172);
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  padding: 5px;
-  border: 2px solid black;
+  background-color: var(--background-color);
 }
