@@ -21,14 +21,6 @@
   align-items: center;
 }
 
-.question__bookmark {
-  border: none;
-  font-size: larger;
-  position: absolute;
-  top: -5px;
-  right: -5px;
-}
-
 ul {
   display: flex;
   list-style: none;

@@ -2,4 +2,13 @@
   border-radius: 15px;
   padding: 7px 12px;
   box-shadow: 0 5px 10px 0 black;
+  border: var(--border);
+}
+
+.question__bookmark {
+  border: none;
+  font-size: larger;
+  position: absolute;
+  top: -5px;
+  right: -5px;
 }
