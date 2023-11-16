@@ -1,0 +1,5 @@
+Bookmark button mit image im html
+
+<button aria-label="Bookmark question" class="question__bookmark">
+  <img src="images/ribbon.png" alt="bookmark_sign" height="30px" width="30px" />
+</button>

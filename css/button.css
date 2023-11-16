@@ -9,4 +9,41 @@
   position: absolute;
   top: -5px;
   right: -5px;
+  height: 40px;
+  width: 40px;
+  background-image: url("../images/ribbon.png");
+  background-size: cover;
+}
+
+.question__bookmark2 {
+  font-size: larger;
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  height: 40px;
+  width: 40px;
+  background-image: url("../images/ribbon.png");
+  background-size: cover;
+}
+
+.question__bookmark3 {
+  font-size: larger;
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  height: 40px;
+  width: 40px;
+  background-image: url("../images/ribbon.png");
+  background-size: cover;
+}
+
+.change_bookmark {
+  background-image: url("../images/Bookmark_icon.png");
+  background-size: cover;
+  font-size: larger;
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  height: 40px;
+  width: 40px;
 }
