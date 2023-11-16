@@ -15,6 +15,10 @@
   background-color: rgb(172, 225, 225);
 }
 
+p {
+  display: none;
+}
+
 .question__text {
   display: flex;
   flex-direction: column;
