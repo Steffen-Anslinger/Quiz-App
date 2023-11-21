@@ -1,6 +1,7 @@
 const buttonQuestion1 = document.querySelector('[data-js="answer-button"]');
 const buttonQuestion2 = document.querySelector('[data-js="answer-button2"]');
 const buttonQuestion3 = document.querySelector('[data-js="answer-button3"]');
+
 // const button = document.querySelectorAll;
 
 // button.addEventListener("click", () => {
