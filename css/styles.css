@@ -2,6 +2,7 @@
 @import "/css/button.css";
 @import "/css/header.css";
 @import "/css/navigation.css";
+@import "/css/form.css";
 
 .question {
   border: var(--border);
@@ -12,10 +13,12 @@
   padding: 5px;
   justify-content: center;
   align-items: center;
-  background-color: rgb(172, 225, 225);
+  background-color: rgb(110, 188, 144);
 }
 
-p {
+.Answer1,
+.Answer2,
+.Answer3 {
   display: none;
 }
 
@@ -35,5 +38,5 @@ ul {
 .tag li {
   padding: 5px;
   border-radius: 5px;
-  background-color: var(--background-color);
+  background-color: rgb(152, 251, 152);
 }
