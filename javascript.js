@@ -13,7 +13,7 @@ const buttonQuestion3 = document.querySelector('[data-js="answer-button3"]');
 }); */
 
 buttonQuestion1.addEventListener("click", () => {
-  const answer = document.querySelector(".Answer1");
+  const answer = document.querySelector(".Answer");
   if (answer.style.display === "none") {
     answer.style.display = "block";
     buttonQuestion1.textContent = "Hide answer";

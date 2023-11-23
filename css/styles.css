@@ -7,16 +7,15 @@
 .question {
   border: var(--border);
   border-radius: 10px;
-  gap: 30px;
-  margin: 10px 5%;
+  gap: 50px;
   position: relative;
-  padding: 5px;
+  padding: 10px;
   justify-content: center;
   align-items: center;
-  background-color: rgb(110, 188, 144);
+  background-color: white;
 }
 
-.Answer1,
+.Answer,
 .Answer2,
 .Answer3 {
   display: none;
@@ -28,15 +27,21 @@
   align-items: center;
 }
 
-ul {
+.tag {
+  display: flex;
+  flex-direction: row;
+}
+
+.tag__list {
   display: flex;
   list-style: none;
   gap: 5px;
-  max-width: 5px;
+  flex-wrap: wrap;
 }
 
 .tag li {
   padding: 5px;
   border-radius: 5px;
-  background-color: rgb(152, 251, 152);
+  background-color: var(--background-snakegreen);
+  display: flex;
 }

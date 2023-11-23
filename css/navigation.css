@@ -1,12 +1,30 @@
-.footer__nav {
+.nav {
+  background: var(--background-color);
+  border-top: 1px solid black;
   position: fixed;
   bottom: 0;
-  right: 0;
   width: 100%;
-  background-color: var(--background-color);
+}
+
+.nav__list {
+  list-style: none;
   display: flex;
-  justify-content: space-around;
-  align-items: center;
-  padding: 5px;
-  border: var(--border);
+}
+
+.nav__list-item {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.nav__list-item:not(:first-child) {
+  border-left: var(--border);
+}
+
+.nav__list-item:hover {
+  background-color: var(--background-snakegreen);
+}
+
+.nav__list-item--active {
+  background-color: var(--background-snakegreen);
 }

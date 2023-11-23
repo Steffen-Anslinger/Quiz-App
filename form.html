@@ -11,51 +11,79 @@
     <header class="header">
       <h1 class="header__title">Quiz Arena</h1>
     </header>
-    <form data-js="form">
-      <label for="your_question">Your question:</label>
-      <textarea
-        data-js="your_question"
-        name="your_question"
-        id="your_question"
-        rows="5"
-        maxlenght="150"
-        placeholder="Please enter your question here"
-      ></textarea>
-      <p class="remaining-characters">
-        <span data-js="rem-characters-question">150</span> characters left
-      </p>
-      <label for="your_answer">Your answer:</label>
-      <textarea
-        data-js="your_answer"
-        name="your_answer"
-        id="your_answer"
-        rows="10"
-        maxlenght="150"
-        placeholder="Please enter your answer here"
-      ></textarea>
-      <p class="remaining-characters">
-        <span data-js="rem-characters-answer">150</span> characters left
-      </p>
-      <label for="your_tag">Tag:</label>
-      <input name="your_tag" id="your_tag" type="text" />
-      <button type="submit">Submit</button>
-    </form>
-    <nav class="footer__nav">
-      <a href=""
-        ><img src="./images/home_icon.png" alt="home_sign" height=50px
-        width=50px</a
-      >
-      <a href=""
-        ><img src="./images/bookmark.png" alt="bookmark_sign" height=50px
-        width=50px</a
-      >
-      <a href=""
-        ><img src="./images/add.png" alt="add_sign" height=50px width=50px</a
-      >
-      <a href=""
-        ><img src="./images/profile_icon.png" alt="profile_sign" height=50px
-        width=50px</a
-      >
+    <main>
+      <h2 class="header__form">Create your own question:</h2>
+      <form data-js="form">
+        <fieldset>
+          <label for="your_question">Your question:</label>
+          <textarea
+            data-js="your_question"
+            name="your_question"
+            id="your_question"
+            rows="5"
+            maxlenght="150"
+            placeholder="Please enter your question here"
+          ></textarea>
+          <p class="remaining-characters">
+            <span data-js="rem-characters-question">150</span> characters left
+          </p>
+          <label for="your_answer">Your answer:</label>
+          <textarea
+            data-js="your_answer"
+            name="your_answer"
+            id="your_answer"
+            rows="10"
+            maxlenght="150"
+            placeholder="Please enter your answer here"
+          ></textarea>
+          <p class="remaining-characters">
+            <span data-js="rem-characters-answer">150</span> characters left
+          </p>
+          <label for="your_tag">Tag:</label>
+          <input name="your_tag" id="your_tag" type="text" />
+        </fieldset>
+        <button type="submit">Submit</button>
+      </form>
+    </main>
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__list-item">
+          <a class="nav__Icon" href="/index.html"
+            ><img
+              src="./images/home_icon.png"
+              alt="home_sign"
+              height="50px"
+              width="50px"
+          /></a>
+        </li>
+        <li class="nav__list-item">
+          <a class="nav__Icon" href="/bookmarks.html"
+            ><img
+              src="./images/bookmark.png"
+              alt="bookmark_sign"
+              height="50px"
+              width="50px"
+          /></a>
+        </li>
+        <li class="nav__list-item">
+          <a class="nav__Icon" href="/form.html"
+            ><img
+              src="./images/add.png"
+              alt="add_sign"
+              height="50px"
+              width="50px"
+          /></a>
+        </li>
+        <li class="nav__list-item">
+          <a class="nav__Icon" href="/profile.html"
+            ><img
+              src="./images/profile_icon.png"
+              alt="profile_sign"
+              height="50px"
+              width="50px"
+          /></a>
+        </li>
+      </ul>
     </nav>
   </body>
 </html>

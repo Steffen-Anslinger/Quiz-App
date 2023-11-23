@@ -4,12 +4,15 @@
   height: 80px;
   padding: 10px;
   top: 0;
+  width: 100%;
+  border-bottom: var(--border);
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
 }
 
 .header__title {
+  text-align: center;
   margin: 0;
 }

@@ -7,12 +7,13 @@
 .question__bookmark {
   font-size: larger;
   position: absolute;
-  top: -5px;
-  right: -5px;
+  top: -10px;
+  right: -3px;
   height: 40px;
   width: 40px;
   background-image: url("../images/ribbon.png");
   background-size: cover;
+  border-radius: 40%;
 }
 
 .change_bookmark {
@@ -20,8 +21,8 @@
   background-size: cover;
   font-size: larger;
   position: absolute;
-  top: -5px;
-  right: -5px;
+  top: -10px;
+  right: -3px;
   height: 40px;
   width: 40px;
 }

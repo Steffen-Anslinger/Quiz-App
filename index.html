@@ -6,11 +6,10 @@
     <link rel="stylesheet" href="css/styles.css" />
     <script src="javascript.js" defer></script>
   </head>
-
   <body>
     <header class="header">
       <h1 class="header__title">Quiz Arena</h1>
-      <span class="header__text">The website to test your knowledge.</span>
+      <span class="header__text">The App to test your knowledge.</span>
     </header>
     <main>
       <section class="question">
@@ -25,16 +24,16 @@
           <button type="button" class="show__answer" data-js="answer-button">
             Show answer
           </button>
-          <p class="Answer1">
+          <p class="Answer">
             The Penny Black was the world's first adhesive postage stamp used in
             a public postal system.
           </p>
         </section>
         <section class="tag">
-          <ul>
-            <li>#category1</li>
-            <li>#category2</li>
-            <li>#category3</li>
+          <ul class="tag__list">
+            <li>#post</li>
+            <li>#stamp</li>
+            <li>#old</li>
           </ul>
         </section>
       </section>
@@ -54,10 +53,10 @@
           </p>
         </section>
         <section class="tag">
-          <ul>
-            <li>#category1</li>
-            <li>#category2</li>
-            <li>#category3</li>
+          <ul class="tag__list">
+            <li>#nasa</li>
+            <li>#space</li>
+            <li>#people</li>
           </ul>
         </section>
       </section>
@@ -77,30 +76,54 @@
           </p>
         </section>
         <section class="tag">
-          <ul>
-            <li>#category1</li>
-            <li>#category2</li>
-            <li>#category3</li>
+          <ul class="tag__list">
+            <li>#technic</li>
+            <li>#press</li>
+            <li>#print</li>
           </ul>
         </section>
       </section>
     </main>
-    <nav class="footer__nav">
-      <a href=""
-        ><img src="./images/home_icon.png" alt="home_sign" height=50px
-        width=50px</a
-      >
-      <a href=""
-        ><img src="./images/bookmark.png" alt="bookmark_sign" height=50px
-        width=50px</a
-      >
-      <a href=""
-        ><img src="./images/add.png" alt="add_sign" height=50px width=50px</a
-      >
-      <a href=""
-        ><img src="./images/profile_icon.png" alt="profile_sign" height=50px
-        width=50px</a
-      >
+
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__list-item nav__list-item--active">
+          <a class="nav__Icon" href="/index.html"
+            ><img
+              src="./images/home_icon.png"
+              alt="home_sign"
+              height="50px"
+              width="50px"
+          /></a>
+        </li>
+        <li class="nav__list-item">
+          <a class="nav__Icon" href="/bookmarks.html"
+            ><img
+              src="./images/bookmark.png"
+              alt="bookmark_sign"
+              height="50px"
+              width="50px"
+          /></a>
+        </li>
+        <li class="nav__list-item">
+          <a class="nav__Icon" href="/form.html"
+            ><img
+              src="./images/add.png"
+              alt="add_sign"
+              height="50px"
+              width="50px"
+          /></a>
+        </li>
+        <li class="nav__list-item">
+          <a class="nav__Icon" href="/profile.html"
+            ><img
+              src="./images/profile_icon.png"
+              alt="profile_sign"
+              height="50px"
+              width="50px"
+          /></a>
+        </li>
+      </ul>
     </nav>
   </body>
 </html>
